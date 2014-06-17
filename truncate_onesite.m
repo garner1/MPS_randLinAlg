@@ -1,4 +1,4 @@
-function [B,U,DB]=mytruncate_onesite(A,direction,maxD)
+function [B,U,DB]=truncate_onesite(A,direction,maxD)
 %used in mytruncate
 [D1,D2,d]=size(A); 
 switch direction
