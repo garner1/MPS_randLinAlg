@@ -1,5 +1,5 @@
 function [B,U,DB]=truncate_onesite(A,direction,maxD)
-%used in mytruncate
+%used in truncate
 [D1,D2,d]=size(A); 
 switch direction
     case 'lr'
