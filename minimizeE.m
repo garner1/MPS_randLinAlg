@@ -1,3 +1,5 @@
+% this function provides the energy E, and ground state mps (with bond-dim D), of an input Hamiltonian (mpo)
+% mpsB (optional if set to []) is a random initial state used to start the algorithm
 function [E,mps]=minimizeE(mpo,D,precision,mpsB)
 
 N = size(mpo); 
